@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+    position: sticky;
+    /* background: url(../../img/loguito.png) no-repeat right; */
+    background-color: black;
+    padding: 4%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+

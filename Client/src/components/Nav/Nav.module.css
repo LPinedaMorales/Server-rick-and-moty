@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    position: sticky;
+    /* background: url(../../img/loguito.png) no-repeat r; */
+    background-color: black;
+    padding: 1%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 15%;
+    border: 10% solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}

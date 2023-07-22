@@ -1,0 +1,55 @@
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  /* background:url(../../img/loguito.png) no-repeat center ; */
+  min-height: 100vh;
+  background:linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(../../img/27342-rick-y-morty.jpg) no-repeat center center fixed ;
+  background-size: cover
+}
+
+.hijo {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  min-height: 70vh;
+  padding: 40px;
+  background: rgba(5,7,12,0.50);
+}
+
+
+.inputs{
+  height: 50px;
+  width: 98%;
+  font-size: 2.6rem;
+  padding-left: 10px;
+  margin: 10px; 
+  border-radius: 10px;
+  background: rgba(5,7,12,0.35);
+  font-size:medium;
+  color: aliceblue;
+}
+
+.labels{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  color: beige;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border-radius: 15%;
+  border: 10% solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
